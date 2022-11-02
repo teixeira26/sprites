@@ -1,6 +1,6 @@
 import { keyboard } from '@testing-library/user-event/dist/keyboard';
 import React, { useEffect, useRef } from 'react';
-import './app.css'
+import './aplicacion.css'
 
 function App() {
   const canvas = useRef<HTMLCanvasElement>(null);
